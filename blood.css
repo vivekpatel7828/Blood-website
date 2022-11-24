@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 34%;
+    display: flex;
+    padding-left: 31px;
+    align-items: center;
+    color: #da5757;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.logo img {
+    width: 10%;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    box-shadow: 0px 7px 6px #772121;
+}
+
+.nav-list {
+    width: 80%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 16px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #da5757;
+    font-size: 16px;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: white;
+    /* transition: .2s; */
+}
+
+.rightnav {
+    background-color: black;
+    width: 20%;
+    padding-left: 7%;
+}
+
+#search {
+    padding: 3px;
+    border: 3px solid;
+    border-radius: 7px;
+    border-color: #d01d32;
+}
+
+.btn-sm {
+    border: 2px solid;
+    border-radius: 4px;
+    color: #d01d32;
+    cursor: pointer;
+}
+
+.background-firstsection {
+    background-color: #d49a9a;
+    background-size: cover;
+    height: 750px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 88%;
+    margin: auto;
+    height: 95%;
+}
+
+.firsthalf {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Zen Antique Soft', serif;
+
+}
+
+.secondhalf {
+    width: 50%;
+
+}
+
+.secondhalf img {
+    width: 74%;
+    margin-left: 91px;
+    border: 4px solid #f1e9e9;
+    border-radius: 49px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.text-small li {
+    font-size: 18px;
+}
+
+.top {
+    font-size: 26px;
+    padding: 19px 0px 0px 0px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.video {
+    font-size: 21px;
+    color: #b70e0e;
+    font-weight: bolder;
+}
+
+
+                                          /* Second Section */
+
+.background-secondsection {
+    height: 850px;
+    background-size: cover;
+    background-color: #e7bfbf;
+    margin-top: -14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.first-line {
+    padding-right: 84px;
+}
+
+.first-heading {
+    padding: 24px 0px 0px 57px;
+    font-size: 29px;
+}
+
+.heading {
+    padding: 21px 0px 3px 32px;
+    font-size: 44px;
+    padding-top: 67px;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+.first-para {
+    padding: 0px 0px 0px 122px;
+    font-size: 18px;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.point {
+    padding: 13px 0px 0px 126px;
+    font-size: 18px;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.second-heading {
+    padding: 24px 0px 0px 57px;
+    font-size: 29px;
+}
+
+
+
+                                                /* third section */
+
+
+
+
+.background-thirdsection {
+    height: 850px;
+    background-color: #ffdcdc;
+    background-size: cover;
+    margin-top: -14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.third_box{
+    text-align: center;
+    padding-top: 53px;
+}
+
+.reg_head1{
+    font-size: 44px;
+    font-weight: bolder;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.reg_head2{
+    font-size: 27px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.third_border{
+    border: 2px solid black;
+    max-width: 464px;
+    margin: auto;
+    text-align: left;
+    padding: 42px 42px 42px 87px;
+    margin-top: 14px;
+}
+
+.space_box1{
+    margin: 0px 0px 28px 0px;
+    padding: 7px 223px 7px 7px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#id_space_box1{
+    padding: 7px 275px 7px 7px;
+}
+
+#third_btn{
+    display: flex;
+    padding: 8px 155px 8px 155px;
+}
+
+.third_button1{
+    
+    margin: 0px 8px 0px -164px;
+    padding: 7px 80px 8px 80px;
+    border: 1px solid black;
+}
+
+
+.third_button2{
+    margin: 0px 0px 0px 15px;
+    padding: 7px 80px 8px 80px;
+    border: 1px solid black;
+}
+
+.third_button1:hover{
+    background-color: #c9c6c6;
+}
+
+.third_button2:hover{
+    background-color: #c9c6c6;
+}
+
+
+
+
+                                                                              /* fourth section */
+
+
+
+.background-fourthsection{
+    height: 850px;
+    background-color: #b8a2a2;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.fourth_box{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.login_head{
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.fourth_box_one{
+    margin-top: 10px;
+}
+
+.label box_inbox{
+    font-size: 10px;
+}
+
+#back_space{
+    margin: 9px 0px 44px 0px;
+    padding: 5px 180px 5px 7px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#password{
+    margin: 9px 0px 9px 0px;
+    padding: 5px 180px 5px 7px;
+    border: 1px solid black;
+    border-radius: 3px
+}
+
+.fourth_border{
+    border: 2px solid black;
+    max-width: 360px;
+    margin: auto;
+    margin-top: 59px;
+    text-align: left;
+    padding: 32px;
+}
+
+.box_inbox{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.fourth_btn{
+    padding: 8px 155px 8px 155px;
+    border: 1px solid black
+}
+
+.fourth_btn:hover{
+    background-color:  #c9c6c6;;
+}
+
+#passwordtoggler{
+    margin-bottom: 44px;
+}
+
+.heading {
+    margin-top: 14px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+                                                                            /* fifth section */
+
+
+
+.background-fifthsection{
+    height: 425px;
+    background-color: #ffdcdc;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.all_foot{
+    padding: 2px;
+    display: flex;
+}
+
+
+.foot_fifth{
+    border: 2px solid black;
+    width: 33%;
+    padding: 19px 16px 2px 16px;
+    border-radius: 5px;
+    height: 250px;
+    margin: 69px 2px 2px 141px;
+}
+
+.foot_fifth_1{
+    display: flex;
+}
+
+.img_fifth{
+    height: 60px;
+    width: 60px;
+}
+
+.fifth_box{
+    display: flex;
+    background-color: #aaabaf;
+}
+
+.para_fifth{
+    font-size: 35px;
+    font-weight:bolder ;
+    padding: 7px 2px 0px 4px;
+}
+
+.para_fifth_1{
+    padding: 35px 8px 35px 8px;
+}
+
+.pr_1{
+    font-size: 18px;
+}
+
+.button_fifth{
+    padding: 0px 0px 4px 7px;
+
+}
+
+.button_fifth_1{
+    padding: 4px;
+    background-color: #aaabaf;
+    color: black;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.button_fifth_1:hover{
+    background-color: #8c8c8e;
+    color: black;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.img_fifth_2{
+    height: 47px;
+    width: 46px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 4px 0px 4px 5px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1140px) {
+
+                                                /* first section */
+    .logo{
+        font-size: 22px;
+        padding-left: 0px;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .rightnav {
+        padding-left:8px;
+    }
+
+    .secondhalf img {
+        width: 78%;
+        margin-left: 42px;
+    }
+
+    .text-small {
+        font-size: 14px;
+    }
+
+    .text-small li {
+        font-size: 14px;
+    }
+
+    .top {
+        font-size: 17px;
+    }
+
+    .background-firstsection {
+        height: 800px;
+        width: 150%;
+    }
+
+    .navbar {
+        position: relative;
+        width: 150%;
+    }
+
+    #search{
+        margin-left: -35px;
+
+    }
+
+    .btn-sm{
+        padding: 3px 13px 2px 13px;
+        margin: 2px 0px 2px 16px;
+    }
+
+    .logo img {
+        width: 34%;
+        margin-left: -26px;
+    }
+    
+
+                                                /* second section */
+
+    .background-secondsection {
+        height: 1100px;
+        width: 150%;
+    }
+
+    .first-para {
+        font-size: 14px;
+        padding: 0px 0px 0px 41px;
+    }   
+
+    
+    .point {
+        font-size: 14px;
+        padding: 13px 20px 0px 33px;
+    }
+
+    .first-line{
+        padding-right: 38px;
+    }
+
+    .second-line{
+        padding-left: 5px;
+    }
+    .first-heading{
+        padding-left: 6px;
+    }
+    
+    .second-heading{
+        padding-left: 6px;
+    }
+                                            /* third section */
+
+    .background-thirdsection {
+        height: 862px;
+        width: 150%;
+    }
+
+
+
+                                                                    /* fourth section */
+
+    .background-fourthsection {
+        height: 850px;
+        width: 150%;
+    }
+
+    .third_border{
+        padding: 42px 42px 42px 75px;
+    }
+
+
+
+
+                                                                     /* fifth section */
+
+    .all_foot{
+        display:inline-block;
+    }
+
+    .background-fifthsection{
+        height: 820px;
+        width: 150%;
+    }
+
+    .foot_fifth{
+        margin: 72px 0px 0px 33px;
+        width: 414px;
+    }
+
+
+}
